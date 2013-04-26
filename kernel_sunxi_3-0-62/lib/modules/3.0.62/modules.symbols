@@ -16,8 +16,8 @@ alias symbol:usbnet_stop usbnet
 alias symbol:drm_crtc_init drm
 alias symbol:drm_gem_handle_create drm
 alias symbol:sndi2s_dai sndi2s
-alias symbol:mali_set_user_setting mali
 alias symbol:drm_pci_free drm
+alias symbol:mali_set_user_setting mali
 alias symbol:videobuf_querybuf videobuf_core
 alias symbol:drm_i2c_encoder_init drm
 alias symbol:drm_mode_connector_attach_encoder drm
@@ -49,8 +49,8 @@ alias symbol:tea5761_attach tea5761
 alias symbol:drm_irq_uninstall drm
 alias symbol:drm_master_put drm
 alias symbol:usbnet_open usbnet
-alias symbol:usbnet_disconnect usbnet
 alias symbol:drm_framebuffer_init drm
+alias symbol:usbnet_disconnect usbnet
 alias symbol:drm_mode_equal drm
 alias symbol:drm_mode_sort drm
 alias symbol:drm_mm_search_free drm
@@ -126,8 +126,8 @@ alias symbol:drm_property_add_enum drm
 alias symbol:br_should_route_hook bridge
 alias symbol:drm_mode_width drm
 alias symbol:videobuf_streamon videobuf_core
-alias symbol:usbnet_resume_rx usbnet
 alias symbol:drm_ati_pcigart_cleanup drm
+alias symbol:usbnet_resume_rx usbnet
 alias symbol:drm_property_destroy drm
 alias symbol:drm_i2c_encoder_destroy drm
 alias symbol:drm_property_create drm
@@ -202,8 +202,8 @@ alias symbol:drm_clflush_pages drm
 alias symbol:drm_read drm
 alias symbol:drm_mode_prune_invalid drm
 alias symbol:videobuf_alloc_vb videobuf_core
-alias symbol:usbnet_change_mtu usbnet
 alias symbol:drm_vblank_count drm
+alias symbol:usbnet_change_mtu usbnet
 alias symbol:drm_pci_alloc drm
 alias symbol:drm_sysfs_connector_add drm
 alias symbol:__videobuf_mmap_setup videobuf_core
