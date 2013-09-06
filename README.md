@@ -7,8 +7,8 @@ NOTE: All bootloder and script files work for Cubieboard only!
 
 The repository contains the 3.0.x kernel version:
 
- 3.0.69+ Kernel feature
- ----------------------
+ Kernel features
+ ---------------
  
 * Support for user-controllable LEDs on the board 
 * GPIO support for the expansion headers 
@@ -16,7 +16,7 @@ The repository contains the 3.0.x kernel version:
 * Fast boot due to minimal services 
 * Linaro/Ubuntu Server 13.01 used as base 
 * Serial console enabled 
-* sunxi linux kernel 3.0.x 
+* sunxi linux kernel 3.0.69+ 
 * Text-mode framebuffer console 
 * Kernel configured with maximal networking options
 * Loads of USB device drivers and handy things
