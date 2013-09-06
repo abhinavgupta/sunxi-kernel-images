@@ -7,8 +7,7 @@ NOTE: All bootloder and script files work for Cubieboard only!
 
 The repository contains the 3.0.x kernel version:
 
- Kernel features
- ---------------
+ **Kernel features:**
  
 * Support for user-controllable LEDs on the board 
 * GPIO support for the expansion headers 
@@ -30,19 +29,12 @@ The repository contains the 3.0.x kernel version:
 Note : To support auto login on boot, assuming the OS is a debain OS, perform the following edits 
        in the file /etc/inittabs,
        
-       Go the following line:
+       Make the following changes:
 		```
-      	 1:2345:respawn:/sbin/getty 38400 tty1 ```
-       
-       and change it to:
-		```
-      	 #1:2345:respawn:/sbin/getty 38400 tty1 ```
-       
-       and add the following line below it:
+      	 #1:2345:respawn:/sbin/getty 38400 tty1
+         1:2345:respawn:/bin/login -f YOUR_USER_NAME tty1 </dev/tty1 >/dev/tty1 2>&1
 ```
-       1:2345:respawn:/bin/login -f YOUR_USER_NAME tty1 </dev/tty1 >/dev/tty1 2>&1 ```
-       
-       This will enable autologin only not startX
+This will enable autologin only not startX
   
 
 
