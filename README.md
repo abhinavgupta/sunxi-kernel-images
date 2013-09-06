@@ -9,21 +9,21 @@ The repository contains the 3.0.x kernel version:
 
  3.0.69+ - Consists of the following features
 Features: 
-		a. Support for user-controllable LEDs on the board 
-        b. GPIO support for the expansion headers 
-        c. ssh server 
-        d. Fast boot due to minimal services 
-        e. Linaro/Ubuntu Server 13.01 used as base 
-        f. Serial console enabled 
-        g. sunxi linux kernel 3.0.x 
-        h. Text-mode framebuffer console 
-        i. Kernel configured with maximal networking options
-        j. Loads of USB device drivers and handy things
-        k. Ethernet full duplex 100Mb/s 
-        l. Solved the speed fluctuations on reboot
-        m. SPI IRQ activated on certain GPIO
-        n. 7 UARTs configured
-		o. USB Cameras working V4L drivers added
+	- Support for user-controllable LEDs on the board 
+    - GPIO support for the expansion headers 
+    - ssh server 
+    - Fast boot due to minimal services 
+    - Linaro/Ubuntu Server 13.01 used as base 
+    - Serial console enabled 
+    - sunxi linux kernel 3.0.x 
+    - Text-mode framebuffer console 
+    - Kernel configured with maximal networking options
+    - Loads of USB device drivers and handy things
+    - Ethernet full duplex 100Mb/s 
+    - Solved the speed fluctuations on reboot
+    - SPI IRQ activated on certain GPIO
+    - 7 UARTs configured
+	- USB Cameras working V4L drivers added
 	
 
 Note : To support auto login on boot, assuming the OS is a debain OS, perform the following edits 
