@@ -7,23 +7,24 @@ NOTE: All bootloder and script files work for Cubieboard only!
 
 The repository contains the 3.0.x kernel version:
 
- 3.0.69+ - Consists of the following features
-Features: 
-	- Support for user-controllable LEDs on the board 
-    - GPIO support for the expansion headers 
-    - ssh server 
-    - Fast boot due to minimal services 
-    - Linaro/Ubuntu Server 13.01 used as base 
-    - Serial console enabled 
-    - sunxi linux kernel 3.0.x 
-    - Text-mode framebuffer console 
-    - Kernel configured with maximal networking options
-    - Loads of USB device drivers and handy things
-    - Ethernet full duplex 100Mb/s 
-    - Solved the speed fluctuations on reboot
-    - SPI IRQ activated on certain GPIO
-    - 7 UARTs configured
-	- USB Cameras working V4L drivers added
+ 3.0.69+ Kernel feature
+ ----------------------
+ 
+* Support for user-controllable LEDs on the board 
+* GPIO support for the expansion headers 
+* SSH server 
+* Fast boot due to minimal services 
+* Linaro/Ubuntu Server 13.01 used as base 
+* Serial console enabled 
+* sunxi linux kernel 3.0.x 
+* Text-mode framebuffer console 
+* Kernel configured with maximal networking options
+* Loads of USB device drivers and handy things
+* Ethernet full duplex 100Mb/s 
+* Solved the speed fluctuations on reboot
+* SPI IRQ activated on certain GPIO
+* 7 UARTs configured
+* USB Cameras working V4L drivers added
 	
 
 Note : To support auto login on boot, assuming the OS is a debain OS, perform the following edits 
