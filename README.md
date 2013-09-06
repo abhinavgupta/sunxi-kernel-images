@@ -1,0 +1,47 @@
+sunxi-kernel-images
+===================
+
+Custom Kernel Images and Bootloaders for Allwinner A10 boards and Cubieboard specific script files.
+
+NOTE: All bootloder and script files work for Cubieboard only!
+
+The repository contains the 3.0.x kernel version:
+
+ 3.0.69+ - Consists of the following features
+Features: 
+		a. Support for user-controllable LEDs on the board 
+        b. GPIO support for the expansion headers 
+        c. ssh server 
+        d. Fast boot due to minimal services 
+        e. Linaro/Ubuntu Server 13.01 used as base 
+        f. Serial console enabled 
+        g. sunxi linux kernel 3.0.x 
+        h. Text-mode framebuffer console 
+        i. Kernel configured with maximal networking options
+        j. Loads of USB device drivers and handy things
+        k. Ethernet full duplex 100Mb/s 
+        l. Solved the speed fluctuations on reboot
+        m. SPI IRQ activated on certain GPIO
+        n. 7 UARTs configured
+		o. USB Cameras working V4L drivers added
+	
+
+Note : To support auto login on boot, assuming the OS is a debain OS, perform the following edits 
+       in the file /etc/inittabs,
+       
+       Go the following line:
+		```
+      	 1:2345:respawn:/sbin/getty 38400 tty1 ```
+       
+       and change it to:
+		```
+      	 #1:2345:respawn:/sbin/getty 38400 tty1 ```
+       
+       and add the following line below it:
+```
+       1:2345:respawn:/bin/login -f YOUR_USER_NAME tty1 </dev/tty1 >/dev/tty1 2>&1 ```
+       
+       This will enable autologin only not startX
+  
+
+
